@@ -1,0 +1,210 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: verdana;
+}
+
+.navigation {
+	background-color: #40799F;
+	width: 100%;
+	height: 70px;
+	color: white;
+	position: fixed;
+}
+
+.bio {
+float: left;
+padding-top: 20px;
+padding-left: 25px;
+padding-bottom: 10px
+}
+
+.menu{
+	margin-left: 1000px;
+	padding-top: 25px;
+}
+
+.menu ul li {
+	list-style: none;
+	display: inline-block;
+	margin-right: 30px;
+}
+
+.menu ul li a {
+	text-decoration: none;
+	color: white;
+}
+
+.menu ul li a:hover {
+	color: #83C0B4;
+	font-style: italic;
+}
+
+.profile {
+	background-color: #fdfae7;
+	height: 500px;
+	text-align: center;
+	color: #40799F;
+}
+
+.profile img{
+	border-radius: 100px;
+	height: 150px;
+	border: 5px solid #83C0B4;
+	margin-top: 100px;
+}
+
+.profile h1{
+	margin-top: 10px;
+}
+
+.profile p{
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.profile button{
+	margin-top: 50px;
+	padding: 10px;
+	border-radius: 50px;
+	width: 350px;
+	font-size: 13;
+	background-color: #83C0B4;
+	border: none;
+}
+
+.profile button:hover {
+	background-color: #fdfae7;
+	border: 1px solid black;
+}
+
+
+.RP {
+	text-align: center;
+	color: #40799F;
+	margin-top: 500px;
+	margin-bottom: 500px;
+	align-content: center;
+}
+
+.SD, .SMP, .SMA {
+	width: 300px;
+	height: 300px;
+	background-color: #b9dbc2;
+	text-align: center;
+	padding: 59px 59px;
+	margin: 50px 20px 20px 50px;
+	border-radius: 5px;
+	float: left;
+}
+
+.SD img{
+	height: 100px;
+}
+
+.SMP img{
+	height: 100px;
+}
+
+.SMA img{
+	height: 100px;
+}
+
+
+.about {
+	text-align: center;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	align-content: center;
+	height: 150px;
+}
+
+
+.about img{
+	width: 250px;
+	margin-top: 30px;
+	margin-bottom: 150px;
+	padding: 20px 20px;
+	text-align: center;
+	border-radius: 80px;
+
+}
+
+.about h1 {
+	color: #40799F;
+}
+
+.RP hr {
+	margin-bottom: 30px;
+}
+
+.RP h3, p {
+	margin-top: 10px;
+	margin-bottom: 13px;
+	padding: 0px 20px;
+}
+
+.contact {
+	text-align: center;
+	font-size: 15px;
+}
+
+.contact h2{
+	color: #40799F;
+}
+
+.contact hr{
+	margin-bottom: 30px;
+}
+
+.footer {
+	background-color: #83C0B4;
+	width: 100%;
+	height: 30px;
+	text-align: center;
+	font-size: 13px;
+	padding: 1px;
+	margin: 50px auto 0px
+}
+
+@media screen and (max-width: 768px)
+{
+	.about {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    align-content: center;
+    height: auto; 
+}
+
+.about img {
+    max-width: 100%; 
+    margin-top: 30px;
+    margin-bottom: 20px;
+    padding: 20px;
+    text-align: center;
+    border-radius: 80px; 
+    overflow: hidden;
+}
+
+    .RP {
+        margin-top: 30px; 
+        margin-bottom: 30px;
+        text-align: center;
+    }
+
+    .RP h3, .RP p {
+        margin: 0 auto; 
+        padding: 0px 10px; 
+        text-align: center; 
+    }
+    
+    .RP img {
+        margin-top: 10px; 
+        margin-bottom: 10px; 
+    }
+
+	.SD, .SMP, .SMA {
+		margin: 10px;
+	}
+}
